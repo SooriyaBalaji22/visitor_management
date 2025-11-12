@@ -37,7 +37,7 @@ npm install
 npm start
 ```
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser
+3. Open [http://localhost:3000](http://localhost:3000) in your browser (or visit [https://visitormanagementss.vercel.app/](https://visitormanagementss.vercel.app/) for production)
 
 ## Usage
 

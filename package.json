@@ -2,6 +2,7 @@
   "name": "visitor-management",
   "version": "1.0.0",
   "description": "Visitor Management System with Digital Business Cards",
+  "homepage": "https://visitormanagementss.vercel.app",
   "private": true,
   "dependencies": {
     "html2canvas": "^1.4.1",
