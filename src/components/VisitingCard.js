@@ -3,7 +3,6 @@ import { QRCodeSVG } from 'qrcode.react';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
 import { encodeVisitorData } from '../utils/dataEncoder';
-import KaynesLogo from '../assets/kaynes-logo.svg';
 import './VisitingCard.css';
 
 const VisitingCard = ({ visitorData }) => {
