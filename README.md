@@ -14,14 +14,16 @@ A modern React application for creating and managing digital business cards. Cre
 - 👁️ **Preview Card** - View a detailed preview of the visitor information in a clean, professional format
 
 - 🎴 **Visiting Card** - Generate a stylish business card with:
-  - Modern red and white design
-  - Company logo placeholder
+  - Modern green geometric design
+  - Company logo
   - QR code for easy contact sharing
   - All contact information
 
 - 💾 **Download Options** - Download both preview and visiting card as:
   - PDF format
   - PNG image format
+
+- 🔗 **QR Code Sharing** - Scan QR code to view visiting card on a dedicated route
 
 ## Installation
 
@@ -44,10 +46,12 @@ npm start
 3. Click "Generate Preview & Card"
 4. Switch between "Preview Card" and "Visiting Card" tabs to view different formats
 5. Use the download buttons to save as PDF or PNG
+6. Scan the QR code to share the visiting card
 
 ## Technologies Used
 
 - React 18
+- React Router DOM - For routing and QR code navigation
 - HTML2Canvas - For converting components to images
 - jsPDF - For PDF generation
 - qrcode.react - For QR code generation
@@ -66,7 +70,13 @@ visitor-management/
 │   │   ├── PreviewCard.js
 │   │   ├── PreviewCard.css
 │   │   ├── VisitingCard.js
-│   │   └── VisitingCard.css
+│   │   ├── VisitingCard.css
+│   │   ├── CardView.js
+│   │   └── CardView.css
+│   ├── utils/
+│   │   └── dataEncoder.js
+│   ├── assets/
+│   │   └── kaynes-logo.svg
 │   ├── App.js
 │   ├── App.css
 │   ├── index.js
@@ -84,4 +94,3 @@ visitor-management/
 ## License
 
 MIT
-
